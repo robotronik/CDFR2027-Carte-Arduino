@@ -548,13 +548,106 @@
         "via_diameter": 0.6,
         "via_drill": 0.4,
         "wire_width": 6
+      },
+      {
+        "name": "GND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgb(0, 0, 0)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "POWER",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(194, 0, 0)",
+        "tuning_profile": ""
       }
     ],
     "meta": {
       "version": 5
     },
     "net_colors": {},
-    "netclass_assignments": {},
+    "netclass_assignments": {
+      "+5V": [
+        "POWER"
+      ],
+      "+BATT": [
+        "POWER"
+      ],
+      "/POWER_1": [
+        "POWER"
+      ],
+      "/POWER_2": [
+        "POWER"
+      ],
+      "/POWER_3": [
+        "POWER"
+      ],
+      "/POWER_4": [
+        "POWER"
+      ],
+      "/POWER_5": [
+        "POWER"
+      ],
+      "GND": [
+        "GND"
+      ],
+      "Net-(D1-K)": [
+        "POWER"
+      ],
+      "Net-(D11-K)": [
+        "POWER"
+      ],
+      "Net-(D2-K)": [
+        "POWER"
+      ],
+      "Net-(D3-K)": [
+        "POWER"
+      ],
+      "Net-(D4-K)": [
+        "POWER"
+      ],
+      "Net-(D9-K)": [
+        "POWER"
+      ],
+      "Net-(JP1-A)": [
+        "POWER"
+      ],
+      "Net-(JP2-A)": [
+        "POWER"
+      ],
+      "Net-(JP3-A)": [
+        "POWER"
+      ],
+      "Net-(JP4-A)": [
+        "POWER"
+      ],
+      "Net-(JP5-A)": [
+        "POWER"
+      ],
+      "Net-(JP6-A)": [
+        "POWER"
+      ],
+      "Net-(U1-BOOT)": [
+        "POWER"
+      ],
+      "Net-(U10-BOOT)": [
+        "POWER"
+      ],
+      "Net-(U2-BOOT)": [
+        "POWER"
+      ],
+      "Net-(U3-BOOT)": [
+        "POWER"
+      ],
+      "Net-(U4-BOOT)": [
+        "POWER"
+      ],
+      "Net-(U9-BOOT)": [
+        "POWER"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -698,7 +791,7 @@
         "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
-    "used_designators": "#FLG1-2,#PWR1-40,#PWR45-53,#PWR56-61,C1-26,C28-29,D1-8,F1,H1-4,J3-12,JP1-4,L1-4,R1-16,TP1-5,U1-5,U8",
+    "used_designators": "#FLG1-2,#PWR1-40,#PWR45-54,#PWR56-101,#PWR106-115,C1-26,C28-47,D1-14,F1,H1-4,J3-27,JP1-7,L1-7,R1-25,TP1-8,U1-5,U8-11",
     "variants": []
   },
   "sheets": [
@@ -723,8 +816,84 @@
       "5V DC3"
     ],
     [
-      "a8e2ce6a-6713-473c-a779-cc7339c70b20",
-      "DC Motor H-Bridge"
+      "ad156cd8-cb19-48be-b19c-1cff67c9443f",
+      "NMOS_Driver1"
+    ],
+    [
+      "fe578cf0-1a5b-4216-b468-efedd36199aa",
+      "5V DC4"
+    ],
+    [
+      "561c799e-6b94-4b0c-a91f-3bfdbcd2e9ac",
+      "5V DC5"
+    ],
+    [
+      "0df4abb6-ab85-4e05-b973-7b8fe6602931",
+      "Pump Drivers"
+    ],
+    [
+      "3833aff7-5f42-462a-91b4-8e0e73b8a898",
+      "Electrovan Drivers"
+    ],
+    [
+      "bdf2dd4c-7f66-4acc-9b37-094c1a633f82",
+      "NMOS_Driver2"
+    ],
+    [
+      "92bd95b1-85cf-4631-99d4-459668bf5b07",
+      "NMOS_Driver3"
+    ],
+    [
+      "c71c0745-7e4f-4035-bcc6-af5506e194e9",
+      "NMOS_Driver4"
+    ],
+    [
+      "9a70e280-e608-4cac-ba11-e2d9704d6f4c",
+      "NMOS_Driver5"
+    ],
+    [
+      "117188d6-5353-4a01-932f-2ecf8dce2fca",
+      "NMOS_Driver6"
+    ],
+    [
+      "de6177f9-5886-4637-8342-1bcd3d174cef",
+      "NMOS_Driver1"
+    ],
+    [
+      "2d5e13c4-f865-49c0-b8a7-6de0207e6ff6",
+      "NMOS_Driver2"
+    ],
+    [
+      "9a0057f6-3250-4284-94d2-200aa2477e70",
+      "NMOS_Driver3"
+    ],
+    [
+      "4eb5267c-92e4-4658-9a26-aac74d80ca2c",
+      "NMOS_Driver4"
+    ],
+    [
+      "81c51152-da88-47bc-8c69-09b157d7da24",
+      "NMOS_Driver5"
+    ],
+    [
+      "56a1ec33-fcf9-4f32-923b-0ca08e02ec61",
+      "NMOS_Driver6"
+    ],
+    [
+      "fa1c3123-a012-4f89-94d8-658d7214fdc8",
+      "NMOS_Driver7"
+    ],
+    [
+      "6c0008c3-2d51-40c6-bd91-2fcdaf589a85",
+      "NMOS_Driver8"
+    ],
+    [
+      "34a7ff1d-007f-4737-b958-ee00a97b8fc7",
+      "NMOS_Driver9"
+    ],
+    [
+      "7dcbc98a-e37a-4826-ab51-970c2017f93b",
+      "NMOS_Driver10"
     ]
   ],
   "text_variables": {},
