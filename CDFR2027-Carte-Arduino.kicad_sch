@@ -1576,6 +1576,135 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_01x01"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x01_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016)
@@ -1911,6 +2040,280 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_01x06"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x06"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x06_1_1"
+				(rectangle
+					(start -1.27 6.35)
+					(end 1.27 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5255,20 +5658,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(circle
-		(center 226.06 35.56)
-		(radius 6.35)
-		(stroke
-			(width 0.508)
-			(type solid)
-			(color 255 22 32 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "e74e9ef4-3484-415e-a3bc-70e473cad707")
-	)
-	(text "TODO Ajouter une pin"
+	(text ""
 		(exclude_from_sim no)
 		(at 96.012 90.17 0)
 		(effects
@@ -5299,7 +5689,7 @@
 		)
 		(uuid "2f02d52b-2109-4763-b4fb-53aac7405755")
 	)
-	(text "Backup Connector + Power just in case "
+	(text ""
 		(exclude_from_sim no)
 		(at 154.432 163.322 0)
 		(effects
@@ -5310,7 +5700,7 @@
 		)
 		(uuid "6a779089-5440-4444-8a08-57d84d2d0196")
 	)
-	(text "TODO\nConnecter tout ça à des sorties de l'arduino"
+	(text ""
 		(exclude_from_sim no)
 		(at 83.82 57.912 0)
 		(effects
@@ -5320,9 +5710,9 @@
 		)
 		(uuid "6a7e5341-36e0-4d7f-b526-09d26a499cca")
 	)
-	(text "Common Cathode => Common Anode\n100 ohm res per channel\nLa LED qu'on utilise est common cathode, mais c'est pas bon dans ce cuircuit là"
+	(text " Common Anode\n"
 		(exclude_from_sim no)
-		(at 234.696 47.752 0)
+		(at 224.028 45.212 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5645,8 +6035,24 @@
 		(uuid "7945e2d7-fb56-4b4d-a2c1-0d94795b456c")
 	)
 	(no_connect
+		(at 40.64 81.28)
+		(uuid "7e28e462-b074-4102-a3dd-e1a24b699380")
+	)
+	(no_connect
 		(at 69.85 99.06)
 		(uuid "9e1177f6-a992-4d02-ac05-909b2026f510")
+	)
+	(no_connect
+		(at 40.64 73.66)
+		(uuid "b03c2094-f788-4b99-8bbb-021375e38b5c")
+	)
+	(no_connect
+		(at 40.64 88.9)
+		(uuid "c530f814-e844-4acf-b2a8-9ae0b030c675")
+	)
+	(no_connect
+		(at 40.64 91.44)
+		(uuid "c77d1f6e-762b-481b-a8c7-377996d83459")
 	)
 	(no_connect
 		(at 40.64 96.52)
@@ -5657,12 +6063,8 @@
 		(uuid "e55425cc-d8e2-4e5f-83fc-e9554992330a")
 	)
 	(no_connect
-		(at 177.8 66.04)
-		(uuid "e7c087c0-fd5d-44b5-81e9-4f19db10b4b3")
-	)
-	(no_connect
-		(at 177.8 63.5)
-		(uuid "eeea0371-04ab-4031-92db-401895eb0520")
+		(at 40.64 66.04)
+		(uuid "f0ab424c-1c0f-4d6b-b32e-8ffdc265cdc4")
 	)
 	(bus_entry
 		(at 190.5 138.43)
@@ -5877,6 +6279,26 @@
 			(type default)
 		)
 		(uuid "08dc2277-2f53-4ae8-b33d-7cb768d5dec7")
+	)
+	(wire
+		(pts
+			(xy 76.2 73.66) (xy 69.85 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a0c7c3f-5b9b-4bf8-b486-b965bb1a723b")
+	)
+	(wire
+		(pts
+			(xy 76.2 71.12) (xy 69.85 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bb7b8f2-bdba-4fbc-87a2-8c77f0fea10f")
 	)
 	(bus
 		(pts
@@ -6100,6 +6522,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 78.74) (xy 69.85 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c01462f-757c-4662-a3e8-527c8b0db255")
+	)
+	(wire
+		(pts
 			(xy 234.315 71.12) (xy 234.315 73.66)
 		)
 		(stroke
@@ -6110,7 +6542,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 40.64) (xy 127 167.64)
+			(xy 127 40.64) (xy 127 175.26)
 		)
 		(stroke
 			(width 0)
@@ -6270,6 +6702,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 182.88) (xy 151.13 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "461ceba7-8180-4240-ab4c-7f15ab05607d")
+	)
+	(wire
+		(pts
 			(xy 109.22 66.04) (xy 109.22 68.58)
 		)
 		(stroke
@@ -6337,6 +6779,16 @@
 			(type default)
 		)
 		(uuid "523da698-4150-4e27-8fff-289a94c851be")
+	)
+	(wire
+		(pts
+			(xy 142.24 177.8) (xy 151.13 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56b66527-f143-473d-9f6a-dd47036069cf")
 	)
 	(wire
 		(pts
@@ -6427,6 +6879,16 @@
 			(type default)
 		)
 		(uuid "64282c45-5bb3-45fe-a516-6fcd5bfd2971")
+	)
+	(wire
+		(pts
+			(xy 77.47 86.36) (xy 69.85 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65c1399a-47a5-4663-ac5e-18aaca87f0f4")
 	)
 	(wire
 		(pts
@@ -6537,6 +6999,26 @@
 			(type default)
 		)
 		(uuid "768b6483-dfa6-45f2-a69c-5c6cd2d39251")
+	)
+	(wire
+		(pts
+			(xy 76.2 76.2) (xy 69.85 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78038227-28e5-4958-b4c4-ccd73301b57e")
+	)
+	(wire
+		(pts
+			(xy 189.23 66.04) (xy 177.8 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79bbcdd8-7a71-4974-a217-139f65a96c10")
 	)
 	(wire
 		(pts
@@ -6780,6 +7262,26 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 66.04) (xy 69.85 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "934fbf47-b208-406c-b8d1-6ed9ca918d7a")
+	)
+	(wire
+		(pts
+			(xy 189.23 63.5) (xy 177.8 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97add919-4105-46a0-9a75-a3dc484f88a4")
+	)
+	(wire
+		(pts
 			(xy 177.8 110.49) (xy 187.96 110.49)
 		)
 		(stroke
@@ -6850,6 +7352,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 81.28) (xy 69.85 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0543aa5-9738-4743-bcbe-3c8e603b1a50")
+	)
+	(wire
+		(pts
 			(xy 127 26.67) (xy 132.08 26.67)
 		)
 		(stroke
@@ -6870,6 +7382,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 172.72) (xy 151.13 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3b5dfbb-0dc9-4f90-b904-004b5255e287")
+	)
+	(wire
+		(pts
 			(xy 177.8 130.81) (xy 187.96 130.81)
 		)
 		(stroke
@@ -6877,6 +7399,16 @@
 			(type default)
 		)
 		(uuid "a58da12a-4b88-4521-8c38-6f3e4347bfd4")
+	)
+	(wire
+		(pts
+			(xy 142.24 180.34) (xy 151.13 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5fbf3ba-0b43-42c8-98d4-9e19f8a53834")
 	)
 	(wire
 		(pts
@@ -6920,6 +7452,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 175.26) (xy 151.13 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab457843-7f85-47c7-9921-af33d0f72910")
+	)
+	(wire
+		(pts
 			(xy 234.315 76.2) (xy 234.315 77.47)
 		)
 		(stroke
@@ -6960,7 +7502,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 38.1) (xy 132.08 165.1)
+			(xy 132.08 38.1) (xy 132.08 172.72)
 		)
 		(stroke
 			(width 0)
@@ -7120,6 +7662,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 78.74) (xy 40.64 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf0ae353-f953-4957-8f15-58b3d12efc95")
+	)
+	(wire
+		(pts
 			(xy 234.315 63.5) (xy 234.315 66.04)
 		)
 		(stroke
@@ -7147,16 +7699,6 @@
 			(type default)
 		)
 		(uuid "c184b42a-1031-425d-bfe8-c9a5924d12ad")
-	)
-	(wire
-		(pts
-			(xy 127 167.64) (xy 144.78 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2cf59bd-aa3c-45ac-8264-a459efae5f01")
 	)
 	(wire
 		(pts
@@ -7237,6 +7779,16 @@
 			(type default)
 		)
 		(uuid "cef3140b-d1c3-4545-bb1f-64f52e26ce7d")
+	)
+	(wire
+		(pts
+			(xy 77.47 83.82) (xy 69.85 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0180d71-f587-4a0e-9f0d-91e47bcd2a4b")
 	)
 	(wire
 		(pts
@@ -7350,6 +7902,26 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 76.2) (xy 40.64 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd5778c3-3c2f-4c03-85aa-ecc2dda921e8")
+	)
+	(wire
+		(pts
+			(xy 76.2 68.58) (xy 69.85 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df06f273-fe0d-480a-8fdb-fd2bbb5dc939")
+	)
+	(wire
+		(pts
 			(xy 234.315 68.58) (xy 234.315 71.12)
 		)
 		(stroke
@@ -7377,16 +7949,6 @@
 			(type default)
 		)
 		(uuid "e8e2f306-6b7d-4cd4-8ea5-43e6c5005718")
-	)
-	(wire
-		(pts
-			(xy 132.08 165.1) (xy 144.78 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb32d571-87b1-45da-9391-c2ad5e364ab9")
 	)
 	(wire
 		(pts
@@ -7795,6 +8357,16 @@
 		)
 		(uuid "0939342f-b151-415e-8d8f-0445111f6946")
 	)
+	(label "Sens8"
+		(at 34.29 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1469f4a7-7aa0-411e-9e23-c9ef6e6404fb")
+	)
 	(label "Sens1"
 		(at 101.6 66.04 180)
 		(effects
@@ -7855,6 +8427,16 @@
 		)
 		(uuid "2ddfd8f8-b3b6-4083-851e-1a4bf3564b65")
 	)
+	(label "Sens1"
+		(at 76.2 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2df6df84-f39c-4a81-8145-69496a70a63b")
+	)
 	(label "MASTER_I2C_DIO"
 		(at 40.64 83.82 180)
 		(effects
@@ -7864,6 +8446,16 @@
 			(justify right bottom)
 		)
 		(uuid "312cbe79-233a-4e38-adb9-18c719a6c428")
+	)
+	(label "ExtPWM10"
+		(at 142.24 180.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "31d2c54b-9cd3-40ec-864b-6230f77444f2")
 	)
 	(label "LED_G"
 		(at 186.69 40.64 180)
@@ -7876,7 +8468,7 @@
 		(uuid "3338506b-92d9-4a1a-80ef-7bbc2fa3b2e8")
 	)
 	(label "PWM_LIDAR"
-		(at 99.695 88.9 180)
+		(at 100.33 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7936,7 +8528,7 @@
 		(uuid "3f4b686a-e439-49ed-a8a0-225806789f33")
 	)
 	(label "PWM_LIDAR"
-		(at 58.42 59.69 180)
+		(at 82.55 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7985,6 +8577,16 @@
 		)
 		(uuid "4a0e1e83-c288-44e9-b99a-18bbe745b431")
 	)
+	(label "Sens3"
+		(at 76.2 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4b66d11f-863a-4f77-8ba6-7390bcad148a")
+	)
 	(label "Pump2"
 		(at 179.07 107.95 0)
 		(effects
@@ -8006,7 +8608,7 @@
 		(uuid "4e87018f-4f57-4dba-aa5a-e963111426b5")
 	)
 	(label "Output_Enable"
-		(at 58.42 57.15 180)
+		(at 85.09 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8035,6 +8637,16 @@
 		)
 		(uuid "5354c755-9397-42d7-b875-958d66d3318e")
 	)
+	(label "Sens2"
+		(at 76.2 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "54521ab4-3d70-4428-b094-aec5c01183a3")
+	)
 	(label "POW_EN"
 		(at 67.31 170.18 0)
 		(effects
@@ -8044,6 +8656,16 @@
 			(justify left bottom)
 		)
 		(uuid "56930d7a-7c2a-4123-b310-a759b906ef40")
+	)
+	(label "Sens6"
+		(at 77.47 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5e0780fc-9d20-4e11-8f8a-4aef65863582")
 	)
 	(label "LED_B"
 		(at 209.55 40.64 0)
@@ -8096,14 +8718,24 @@
 		(uuid "6dbdb58d-6c51-46bd-82c5-9c21561bc83e")
 	)
 	(label "POW_EN"
-		(at 58.42 53.34 180)
+		(at 31.75 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6ed90ab2-10d9-4261-a1c7-db2b4d258229")
+	)
+	(label "Sens5"
+		(at 76.2 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "6ed90ab2-10d9-4261-a1c7-db2b4d258229")
+		(uuid "6ff94744-6113-4570-bebd-294d396d3e99")
 	)
 	(label "POW_EN"
 		(at 67.31 185.42 0)
@@ -8124,6 +8756,26 @@
 			(justify right bottom)
 		)
 		(uuid "7e9caaba-c1bd-4f6f-9103-0753308b0b0b")
+	)
+	(label "Sens7"
+		(at 77.47 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7f746738-58be-4073-bf55-966292a03e9a")
+	)
+	(label "ExtPWM10"
+		(at 189.23 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8144ef3d-7431-4818-a4e9-1aa5b2387478")
 	)
 	(label "EV7"
 		(at 179.07 135.89 0)
@@ -8214,6 +8866,16 @@
 			(justify left bottom)
 		)
 		(uuid "a14319bb-3b4d-449b-a2c0-00a5d8c6ecbf")
+	)
+	(label "POWER_1"
+		(at 142.24 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a16c05c7-e1e2-4d24-9dca-41aa6bec8a77")
 	)
 	(label "Sens8"
 		(at 101.6 83.82 180)
@@ -8345,6 +9007,16 @@
 		)
 		(uuid "c66ff2a6-beef-4a13-903c-c83b4fd7b072")
 	)
+	(label "ExtPWM11"
+		(at 142.24 182.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "caf5df85-f232-41af-b166-85b3764981ae")
+	)
 	(label "POWER_3"
 		(at 194.31 102.87 0)
 		(effects
@@ -8395,6 +9067,16 @@
 		)
 		(uuid "d4a8d2b0-cf4b-4992-9d22-6d7117661372")
 	)
+	(label "Sens4"
+		(at 76.2 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d81fc724-096e-4a33-8666-55193ea1544b")
+	)
 	(label "Servo7"
 		(at 219.71 76.2 180)
 		(effects
@@ -8444,6 +9126,16 @@
 			(justify right bottom)
 		)
 		(uuid "f032804a-ddec-4dd3-82d1-e47fb7037691")
+	)
+	(label "ExtPWM11"
+		(at 189.23 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f1eb2f3e-423b-4801-9fb0-1f5855291ba3")
 	)
 	(label "EV6"
 		(at 179.07 133.35 0)
@@ -8532,7 +9224,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000056d719df")
-		(property "Reference" "J1"
+		(property "Reference" "J3"
 			(at 45.72 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8633,7 +9325,7 @@
 		(instances
 			(project "CDFR2027-Carte-Arduino"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "J1")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -8651,7 +9343,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000056d71a21")
-		(property "Reference" "J2"
+		(property "Reference" "J4"
 			(at 64.77 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8752,7 +9444,7 @@
 		(instances
 			(project "CDFR2027-Carte-Arduino"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "J2")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -8769,7 +9461,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0dd817fc-c802-4f95-8a21-61b1db17b1f3")
-		(property "Reference" "R13"
+		(property "Reference" "R3"
 			(at 134.112 33.782 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8833,7 +9525,7 @@
 		(instances
 			(project "CDFR2027-Carte-Arduino"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R13")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -8851,7 +9543,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "110729ee-9b3c-444b-bf01-d898f6ec23cb")
-		(property "Reference" "U8"
+		(property "Reference" "U2"
 			(at 162.1633 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8994,7 +9686,7 @@
 		(instances
 			(project "CDFR2027-Carte-Arduino"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "U8")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -9013,7 +9705,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "14951e44-95f5-43da-84ae-2c4d1db493a8")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR012"
 			(at 59.69 41.275 0)
 			(hide yes)
 			(show_name no)
@@ -9073,7 +9765,7 @@
 		(instances
 			(project "CDFR2027-Carte-Arduino"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR051")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -9092,7 +9784,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21a11f0c-8ca5-4013-a4ca-3cc127d74c4a")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR020"
 			(at 109.22 92.075 0)
 			(hide yes)
 			(show_name no)
@@ -9152,7 +9844,7 @@
 		(instances
 			(project "CDFR2027-Carte-Arduino"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR049")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -9170,7 +9862,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "234ec908-0dcc-44f8-bf21-5cdbaba6df3a")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR025"
 			(at 139.7 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -9230,7 +9922,7 @@
 		(instances
 			(project "CDFR2027-Carte-Arduino"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR079")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -9249,7 +9941,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24f1a7da-379f-4eae-9719-5fa09611590e")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR07"
 			(at 34.29 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -9309,7 +10001,7 @@
 		(instances
 			(project "CDFR2027-Carte-Arduino"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR038")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -9327,7 +10019,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "271851ef-4ffc-48ac-8b55-841331da6c60")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR023"
 			(at 139.7 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -9387,7 +10079,7 @@
 		(instances
 			(project "CDFR2027-Carte-Arduino"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR056")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -9405,7 +10097,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b4099de-fd93-4eb5-adde-cbf075ec0dab")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR032"
 			(at 224.79 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -9465,7 +10157,7 @@
 		(instances
 			(project "CDFR2027-Carte-Arduino"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR054")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -9483,7 +10175,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2e71bb1a-7d43-4c33-96d0-cd6dd77fa046")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR024"
 			(at 139.7 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -9543,7 +10235,7 @@
 		(instances
 			(project "CDFR2027-Carte-Arduino"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR058")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -9718,7 +10410,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3956447b-6c5d-49d8-82ec-b5c8d9d27c0c")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR028"
 			(at 160.02 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -9778,7 +10470,7 @@
 		(instances
 			(project "CDFR2027-Carte-Arduino"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR052")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -9797,7 +10489,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ac29a82-7576-468d-96c4-45a013545af2")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR033"
 			(at 234.315 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -9857,7 +10549,7 @@
 		(instances
 			(project "CDFR2027-Carte-Arduino"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR050")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -9874,7 +10566,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3e26f3c4-d636-4089-a7da-ff7eeb8e675c")
-		(property "Reference" "J7"
+		(property "Reference" "J11"
 			(at 221.615 59.055 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9951,7 +10643,7 @@
 		(instances
 			(project "CDFR2027-Carte-Arduino"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "J7")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -9968,7 +10660,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3f746f40-baa8-4dce-afa5-6d88d2acccb6")
-		(property "Reference" "R16"
+		(property "Reference" "R1"
 			(at 124.206 33.528 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10032,7 +10724,7 @@
 		(instances
 			(project "CDFR2027-Carte-Arduino"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R16")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -10050,7 +10742,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "464b5d52-87a3-4fc6-8403-6620314499e5")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR029"
 			(at 160.02 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -10110,7 +10802,7 @@
 		(instances
 			(project "CDFR2027-Carte-Arduino"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR057")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -10127,7 +10819,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4a43d1a3-5343-49bb-998e-ef9278a6b26e")
-		(property "Reference" "J12"
+		(property "Reference" "J8"
 			(at 113.03 64.135 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10207,7 +10899,85 @@
 		(instances
 			(project "CDFR2027-Carte-Arduino"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "J12")
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_2")
+		(lib_id "power:GND")
+		(at 151.13 170.18 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4cc7235b-1afe-4809-8c7a-f1314e8aaf05")
+		(property "Reference" "#PWR027"
+			(at 144.78 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.13 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "01cbe29e-1738-44a8-bece-7975b6b8b182")
+		)
+		(instances
+			(project "CDFR2027-Carte-Arduino"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -10226,7 +10996,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51af521c-d7dd-404e-8e2b-c8a6173e9bba")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR03"
 			(at 22.86 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -10286,7 +11056,7 @@
 		(instances
 			(project "CDFR2027-Carte-Arduino"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR036")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -10303,7 +11073,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5234288e-0ac3-4be8-bd10-e97fcfaf619b")
-		(property "Reference" "R24"
+		(property "Reference" "R6"
 			(at 221.742 33.528 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10367,7 +11137,7 @@
 		(instances
 			(project "CDFR2027-Carte-Arduino"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R24")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -10384,7 +11154,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "560bc806-bbac-459f-b490-454a407d0039")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG01"
 			(at 41.275 28.575 0)
 			(hide yes)
 			(show_name no)
@@ -10444,7 +11214,7 @@
 		(instances
 			(project "CDFR2027-Carte-Arduino"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#FLG02")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -10461,7 +11231,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "56512f0a-7040-4134-8880-6a1fa35dd335")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR030"
 			(at 160.02 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -10521,7 +11291,7 @@
 		(instances
 			(project "CDFR2027-Carte-Arduino"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR059")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -10538,7 +11308,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "57f4eb7f-b6fd-41e1-8464-60e8466d5c72")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR016"
 			(at 71.12 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -10598,7 +11368,7 @@
 		(instances
 			(project "CDFR2027-Carte-Arduino"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR062")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -10616,7 +11386,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "589635a5-15bd-4d2e-adf1-295cd3dd9e28")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR06"
 			(at 33.02 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -10677,7 +11447,7 @@
 		(instances
 			(project "CDFR2027-Carte-Arduino"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR030")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -10695,7 +11465,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62f34de9-e09c-4399-859a-962700aa6f9b")
-		(property "Reference" "J8"
+		(property "Reference" "J12"
 			(at 229.87 59.055 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10772,7 +11542,7 @@
 		(instances
 			(project "CDFR2027-Carte-Arduino"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "J8")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -10789,7 +11559,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "641eb40b-0653-419a-a02a-df32d684a9c7")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR017"
 			(at 71.12 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -10849,7 +11619,7 @@
 		(instances
 			(project "CDFR2027-Carte-Arduino"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR071")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -10866,7 +11636,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "64d63185-6201-47f7-9382-f0edd99f9af9")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR04"
 			(at 25.4 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -10927,7 +11697,7 @@
 		(instances
 			(project "CDFR2027-Carte-Arduino"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR0103")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -10945,7 +11715,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67727ac2-ec84-4055-bd37-3b79aec9a8da")
-		(property "Reference" "J5"
+		(property "Reference" "J1"
 			(at 15.24 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11011,7 +11781,7 @@
 		(instances
 			(project "CDFR2027-Carte-Arduino"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "J5")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -11028,7 +11798,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "69e7195f-cf5e-4ce0-9540-0ac1ecb95833")
-		(property "Reference" "J10"
+		(property "Reference" "J6"
 			(at 104.775 64.135 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11108,7 +11878,7 @@
 		(instances
 			(project "CDFR2027-Carte-Arduino"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "J10")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -11125,7 +11895,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6a687ce9-fb57-4ecb-8030-aa131281c14a")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR08"
 			(at 35.56 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -11186,7 +11956,7 @@
 		(instances
 			(project "CDFR2027-Carte-Arduino"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR0102")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -11203,7 +11973,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7fd305a5-8daf-4427-aae8-00095af02242")
-		(property "Reference" "R23"
+		(property "Reference" "R5"
 			(at 221.742 31.75 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11267,7 +12037,7 @@
 		(instances
 			(project "CDFR2027-Carte-Arduino"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R23")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -11286,7 +12056,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a0621c7-a239-4f5b-b987-c0fce882e4fd")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR02"
 			(at 27.94 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -11347,7 +12117,7 @@
 		(instances
 			(project "CDFR2027-Carte-Arduino"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR047")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -11365,7 +12135,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d3b67dc-c3ae-4151-9b0c-1813db4edd6c")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR022"
 			(at 127 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -11425,7 +12195,7 @@
 		(instances
 			(project "CDFR2027-Carte-Arduino"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR053")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -11443,7 +12213,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8faa4770-d553-4871-9c9b-bf1f4cb36546")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR031"
 			(at 160.02 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -11503,7 +12273,7 @@
 		(instances
 			(project "CDFR2027-Carte-Arduino"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR060")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -11521,7 +12291,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9371d90b-2616-47bc-a0ba-67f7c6b190e7")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR019"
 			(at 95.25 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -11581,7 +12351,101 @@
 		(instances
 			(project "CDFR2027-Carte-Arduino"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR029")
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 156.21 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94c95bec-0e68-461d-baef-8c8c9ed08a4f")
+		(property "Reference" "J9"
+			(at 158.75 175.2599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x06"
+			(at 158.75 177.7999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+			(at 156.21 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 156.21 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "0e99c942-07c8-48d0-a5d6-f41e856088d9")
+		)
+		(pin "1"
+			(uuid "b2a82a52-674c-40bd-8c1b-94486e399d0b")
+		)
+		(pin "2"
+			(uuid "c5820e44-23be-4464-aed0-4409ee4e9644")
+		)
+		(pin "6"
+			(uuid "f296374a-2267-4a69-a1be-5b8189fc8d88")
+		)
+		(pin "5"
+			(uuid "58366e06-3642-4d9b-9d04-4b05513ee65b")
+		)
+		(pin "3"
+			(uuid "76cd91cd-d41d-4ddc-9fc8-59ad4355a6b2")
+		)
+		(instances
+			(project "CDFR2027-Carte-Arduino"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -11598,7 +12462,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "95f30079-9007-4f5a-bdaf-c10fe061e5a3")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR011"
 			(at 50.8 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -11658,7 +12522,7 @@
 		(instances
 			(project "CDFR2027-Carte-Arduino"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR031")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -11677,7 +12541,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a038a752-1f77-4d25-bec6-d1c4eab44579")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR010"
 			(at 42.545 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -11737,7 +12601,7 @@
 		(instances
 			(project "CDFR2027-Carte-Arduino"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR039")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -11754,7 +12618,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a2b409d2-5a30-4151-b7cb-b6e74c99f083")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR018"
 			(at 72.39 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -11815,7 +12679,7 @@
 		(instances
 			(project "CDFR2027-Carte-Arduino"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR0105")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -11832,7 +12696,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a3192040-b36f-4735-9888-9583984faa9b")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR014"
 			(at 71.12 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -11892,7 +12756,7 @@
 		(instances
 			(project "CDFR2027-Carte-Arduino"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR033")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -11911,7 +12775,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "adc8d963-5e56-4399-8a15-57cdc822fe2b")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 27.94 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11973,7 +12837,7 @@
 		(instances
 			(project "CDFR2027-Carte-Arduino"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -11990,7 +12854,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b0b151f4-50f3-4838-bd32-55400481d7d7")
-		(property "Reference" "R14"
+		(property "Reference" "R2"
 			(at 129.286 33.528 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12054,7 +12918,7 @@
 		(instances
 			(project "CDFR2027-Carte-Arduino"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R14")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -12072,7 +12936,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b140f9f7-a450-4369-94bf-29609a64589d")
-		(property "Reference" "TP5"
+		(property "Reference" "TP1"
 			(at 45.085 189.7379 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12133,7 +12997,7 @@
 		(instances
 			(project "CDFR2027-Carte-Arduino"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "TP5")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -12151,7 +13015,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b31408ca-d73b-4030-9465-bef430abd6c3")
-		(property "Reference" "J11"
+		(property "Reference" "J13"
 			(at 231.14 36.8301 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12220,7 +13084,7 @@
 		(instances
 			(project "CDFR2027-Carte-Arduino"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "J11")
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -12238,7 +13102,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b3c063a9-fb8f-4784-8a85-ed22acebc3bd")
-		(property "Reference" "C25"
+		(property "Reference" "C1"
 			(at 62.23 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12301,7 +13165,7 @@
 		(instances
 			(project "CDFR2027-Carte-Arduino"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C25")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -12476,7 +13340,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0caf731-3860-45e6-ad15-834a002c616d")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR05"
 			(at 28.575 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -12536,7 +13400,7 @@
 		(instances
 			(project "CDFR2027-Carte-Arduino"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR037")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -12553,7 +13417,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c1f79466-d869-43fc-ad47-57948796ea7a")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR015"
 			(at 71.12 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -12613,7 +13477,7 @@
 		(instances
 			(project "CDFR2027-Carte-Arduino"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR034")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -12630,7 +13494,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ca2321f1-0f0d-4b02-858d-da6c83674ec5")
-		(property "Reference" "J4"
+		(property "Reference" "J5"
 			(at 89.535 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12710,7 +13574,7 @@
 		(instances
 			(project "CDFR2027-Carte-Arduino"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "J4")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -12727,7 +13591,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d81e007c-ecc4-4d39-bc30-285bed8ad2c0")
-		(property "Reference" "R15"
+		(property "Reference" "R4"
 			(at 221.742 29.972 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12791,7 +13655,7 @@
 		(instances
 			(project "CDFR2027-Carte-Arduino"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R15")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -12808,7 +13672,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "db3ca061-004c-45dd-981d-90a093b53fa7")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR09"
 			(at 38.1 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -12869,7 +13733,7 @@
 		(instances
 			(project "CDFR2027-Carte-Arduino"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR0104")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -12887,7 +13751,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de8b765e-4eb5-4487-a741-dae6d585208f")
-		(property "Reference" "U5"
+		(property "Reference" "U1"
 			(at 162.1633 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13030,7 +13894,7 @@
 		(instances
 			(project "CDFR2027-Carte-Arduino"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "U5")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -13049,7 +13913,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2d5ca0a-c62a-43c7-83c6-59d53a530b40")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR01"
 			(at 17.145 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -13109,7 +13973,7 @@
 		(instances
 			(project "CDFR2027-Carte-Arduino"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR035")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -13126,7 +13990,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e4390069-9480-49eb-a718-d10f3edcc513")
-		(property "Reference" "J6"
+		(property "Reference" "J10"
 			(at 206.375 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13203,7 +14067,7 @@
 		(instances
 			(project "CDFR2027-Carte-Arduino"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "J6")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -13220,7 +14084,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e9969c03-ea58-41b2-98de-b5a7ed310277")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG02"
 			(at 50.8 26.035 0)
 			(hide yes)
 			(show_name no)
@@ -13279,7 +14143,7 @@
 		(instances
 			(project "CDFR2027-Carte-Arduino"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#FLG01")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -13297,7 +14161,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9bba817-92fb-4894-a31c-635932dc8f49")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR021"
 			(at 117.475 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -13357,7 +14221,7 @@
 		(instances
 			(project "CDFR2027-Carte-Arduino"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR061")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -13375,7 +14239,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea0115f4-5625-4a1f-82fd-9c6dc40f1260")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR026"
 			(at 140.97 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -13435,7 +14299,7 @@
 		(instances
 			(project "CDFR2027-Carte-Arduino"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR064")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -13452,7 +14316,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ec239849-8152-4d1b-9de9-8424bd7c7ed2")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR013"
 			(at 71.12 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -13512,7 +14376,7 @@
 		(instances
 			(project "CDFR2027-Carte-Arduino"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR032")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -13591,6 +14455,85 @@
 			(project "CDFR2027-Carte-Arduino"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 105.41 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f923aa67-062e-460c-acc2-883987766246")
+		(property "Reference" "J7"
+			(at 107.95 87.6299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 107.95 90.1699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 105.41 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 105.41 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d3e9fb69-e3e9-4c36-88f7-b602f25d55c4")
+		)
+		(instances
+			(project "CDFR2027-Carte-Arduino"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J7")
 					(unit 1)
 				)
 			)
