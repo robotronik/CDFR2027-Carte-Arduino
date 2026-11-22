@@ -5480,7 +5480,7 @@
 	)
 	(text ""
 		(exclude_from_sim no)
-		(at 96.012 90.17 0)
+		(at 96.012 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6096,7 +6096,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 73.66) (xy 69.85 73.66)
+			(xy 85.09 73.66) (xy 69.85 73.66)
 		)
 		(stroke
 			(width 0)
@@ -6106,7 +6106,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 71.12) (xy 69.85 71.12)
+			(xy 77.47 71.12) (xy 69.85 71.12)
 		)
 		(stroke
 			(width 0)
@@ -6606,6 +6606,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 81.28) (xy 77.47 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a114302-c62e-4c3e-a3b8-add1e1d2d937")
+	)
+	(wire
+		(pts
 			(xy 186.69 43.18) (xy 177.8 43.18)
 		)
 		(stroke
@@ -6806,7 +6816,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 76.2) (xy 69.85 76.2)
+			(xy 77.47 76.2) (xy 69.85 76.2)
 		)
 		(stroke
 			(width 0)
@@ -7066,7 +7076,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 66.04) (xy 69.85 66.04)
+			(xy 77.47 66.04) (xy 69.85 66.04)
 		)
 		(stroke
 			(width 0)
@@ -7143,16 +7153,6 @@
 			(type default)
 		)
 		(uuid "9c63844f-3eea-49df-a560-f3894e71b264")
-	)
-	(wire
-		(pts
-			(xy 82.55 81.28) (xy 69.85 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0543aa5-9738-4743-bcbe-3c8e603b1a50")
 	)
 	(wire
 		(pts
@@ -7706,7 +7706,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 68.58) (xy 69.85 68.58)
+			(xy 77.47 68.58) (xy 69.85 68.58)
 		)
 		(stroke
 			(width 0)
@@ -7793,6 +7793,16 @@
 			(type default)
 		)
 		(uuid "f44159ca-7d07-4d8d-93c3-97c0ca4e6f6e")
+	)
+	(wire
+		(pts
+			(xy 88.9 92.71) (xy 100.33 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f47d367f-8604-44ea-98c6-57317e5a1bc2")
 	)
 	(wire
 		(pts
@@ -8222,7 +8232,7 @@
 		(uuid "2ddfd8f8-b3b6-4083-851e-1a4bf3564b65")
 	)
 	(label "Sens1"
-		(at 76.2 66.04 180)
+		(at 77.47 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8262,12 +8272,12 @@
 		(uuid "3338506b-92d9-4a1a-80ef-7bbc2fa3b2e8")
 	)
 	(label "PWM_LIDAR"
-		(at 100.33 88.9 180)
+		(at 88.9 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "34c66d48-69f5-40af-acb8-400a7e1a8289")
 	)
@@ -8321,16 +8331,6 @@
 		)
 		(uuid "3f4b686a-e439-49ed-a8a0-225806789f33")
 	)
-	(label "PWM_LIDAR"
-		(at 82.55 81.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "40870532-5302-440d-8f13-3e11abdc8c0f")
-	)
 	(label "EV1"
 		(at 179.07 120.65 0)
 		(effects
@@ -8372,7 +8372,7 @@
 		(uuid "4a0e1e83-c288-44e9-b99a-18bbe745b431")
 	)
 	(label "Sens3"
-		(at 76.2 71.12 180)
+		(at 77.47 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8432,7 +8432,7 @@
 		(uuid "5354c755-9397-42d7-b875-958d66d3318e")
 	)
 	(label "Sens2"
-		(at 76.2 68.58 180)
+		(at 77.47 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8522,7 +8522,7 @@
 		(uuid "6ed90ab2-10d9-4261-a1c7-db2b4d258229")
 	)
 	(label "Sens5"
-		(at 76.2 76.2 180)
+		(at 77.47 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8600,6 +8600,16 @@
 			(justify left bottom)
 		)
 		(uuid "85b1081d-e1ed-4c0a-ad32-bad3ea256256")
+	)
+	(label "PWM_LIDAR"
+		(at 85.09 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8b9e1b11-155e-4831-bfe9-8218a84bdf68")
 	)
 	(label "POWER_5"
 		(at 105.41 182.88 180)
@@ -8791,6 +8801,16 @@
 		)
 		(uuid "c3c0102a-34e4-4f62-a06a-13065bf135ef")
 	)
+	(label "Sens4"
+		(at 77.47 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c5eb6ba6-5358-4e1c-a0cd-f4b9f55589f1")
+	)
 	(label "EV5"
 		(at 179.07 130.81 0)
 		(effects
@@ -8860,16 +8880,6 @@
 			(justify right bottom)
 		)
 		(uuid "d4a8d2b0-cf4b-4992-9d22-6d7117661372")
-	)
-	(label "Sens4"
-		(at 76.2 73.66 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d81fc724-096e-4a33-8666-55193ea1544b")
 	)
 	(label "Servo7"
 		(at 219.71 76.2 180)
@@ -14382,7 +14392,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 105.41 88.9 0)
+		(at 105.41 92.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14393,7 +14403,7 @@
 		(fields_autoplaced yes)
 		(uuid "f923aa67-062e-460c-acc2-883987766246")
 		(property "Reference" "J7"
-			(at 107.95 87.6299 0)
+			(at 107.95 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14404,7 +14414,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 107.95 90.1699 0)
+			(at 107.95 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14415,7 +14425,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 105.41 88.9 0)
+			(at 105.41 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14426,7 +14436,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 88.9 0)
+			(at 105.41 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14437,7 +14447,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 105.41 88.9 0)
+			(at 105.41 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14448,7 +14458,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 105.41 88.9 0)
+			(at 105.41 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
