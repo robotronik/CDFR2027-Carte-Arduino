@@ -168,7 +168,7 @@
         "min_track_width": 0.2,
         "min_via_annular_width": 0.05,
         "min_via_diameter": 0.4,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -184,6 +184,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -195,6 +196,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -206,6 +208,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -219,7 +222,8 @@
         0.0,
         0.2,
         0.4,
-        0.6
+        0.6,
+        0.8
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -564,7 +568,7 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
+    "net_colors": {},
     "netclass_assignments": {
       "+5V": [
         "POWER"
@@ -590,34 +594,22 @@
       "GND": [
         "GND"
       ],
-      "Net-(D1-K)": [
-        "POWER"
-      ],
       "Net-(D10-K)": [
-        "POWER"
-      ],
-      "Net-(D11-K)": [
         "POWER"
       ],
       "Net-(D12-K)": [
         "POWER"
       ],
-      "Net-(D2-K)": [
+      "Net-(D29-K)": [
         "POWER"
       ],
-      "Net-(D3-K)": [
+      "Net-(D30-K)": [
         "POWER"
       ],
-      "Net-(D4-K)": [
+      "Net-(D31-K)": [
         "POWER"
       ],
-      "Net-(D5-K)": [
-        "POWER"
-      ],
-      "Net-(D7-K)": [
-        "POWER"
-      ],
-      "Net-(D9-K)": [
+      "Net-(D32-K)": [
         "POWER"
       ],
       "Net-(JP1-A)": [
@@ -638,15 +630,6 @@
       "Net-(JP6-A)": [
         "POWER"
       ],
-      "Net-(U1-BOOT)": [
-        "POWER"
-      ],
-      "Net-(U10-BOOT)": [
-        "POWER"
-      ],
-      "Net-(U2-BOOT)": [
-        "POWER"
-      ],
       "Net-(U3-BOOT)": [
         "POWER"
       ],
@@ -663,9 +646,6 @@
         "POWER"
       ],
       "Net-(U8-BOOT)": [
-        "POWER"
-      ],
-      "Net-(U9-BOOT)": [
         "POWER"
       ]
     },
@@ -722,7 +702,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -741,14 +721,32 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB Part #",
+          "name": "JLCPCB Part #",
+          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "${DNP}"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -812,7 +810,7 @@
         "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
-    "used_designators": "R1-56,#FLG1-2,J1-29,#PWR1-101,#PWR106-115,D1-28,C1-47,F1,JP1-7,H1-4,L1-7,TP1-8,U1-11,Q1-16",
+    "used_designators": "#FLG1-2,#PWR1-101,#PWR106-115,C1-47,D1-32,F1,H1-4,J1-29,JP1-7,L1-7,Q1-16,R1-56,TP1-8,U1-11",
     "variants": []
   },
   "sheets": [

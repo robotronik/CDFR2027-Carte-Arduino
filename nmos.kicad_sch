@@ -897,53 +897,33 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Utiliser un connecteur blanc avec secu"
-		(exclude_from_sim no)
-		(at 202.438 103.632 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "261e4fac-c12b-45ae-9878-081c5fa025f4")
-	)
-	(text "À Faire\nPouvoir piloter un moteur ou une électrovanne avec un NMOS AOS AO3400A\nFlyback diode: Place a SS24 Schottky diode to clamp inductive voltage spikes.\nGate resistors: Add a 100 Ω series resistor on each gate and a 10 kΩ pull-down resistor to ground."
-		(exclude_from_sim no)
-		(at 161.29 79.502 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "dfd2081c-7357-43cd-9a53-326896d3d086")
+	(junction
+		(at 142.24 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e6507c2-745b-4f37-b4da-aa2c1fbd6587")
 	)
 	(junction
-		(at 184.15 115.57)
+		(at 133.35 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3440aeb9-6a17-4b3d-af43-de10ef3e6f6f")
 	)
 	(junction
-		(at 187.96 88.9)
+		(at 138.43 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4e30c009-e1b3-4ad6-857d-f6d673885be7")
+		(uuid "d942fdd9-fc54-432d-ba1f-9a5e53dd2ae2")
 	)
 	(junction
-		(at 195.58 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "61fecfbf-a473-4d74-a37e-09140a8fea3c")
-	)
-	(junction
-		(at 191.77 129.54)
+		(at 138.43 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f2ecf4d6-17c4-4e79-8598-06e1a8356dfb")
 	)
 	(wire
 		(pts
-			(xy 184.15 115.57) (xy 184.15 119.38)
+			(xy 133.35 104.14) (xy 133.35 105.41)
 		)
 		(stroke
 			(width 0)
@@ -953,7 +933,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 96.52) (xy 195.58 96.52)
+			(xy 138.43 97.79) (xy 142.24 97.79)
 		)
 		(stroke
 			(width 0)
@@ -963,7 +943,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 127) (xy 184.15 129.54)
+			(xy 133.35 113.03) (xy 133.35 114.3)
 		)
 		(stroke
 			(width 0)
@@ -973,7 +953,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 129.54) (xy 191.77 129.54)
+			(xy 142.24 114.3) (xy 138.43 114.3)
 		)
 		(stroke
 			(width 0)
@@ -983,17 +963,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 95.25) (xy 195.58 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33e6cf48-24e2-4122-9791-63e06b6ee3c4")
-	)
-	(wire
-		(pts
-			(xy 195.58 88.9) (xy 195.58 92.71)
+			(xy 142.24 87.63) (xy 142.24 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1003,7 +973,17 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 115.57) (xy 187.96 115.57)
+			(xy 138.43 97.79) (xy 138.43 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54619ccd-8e73-472a-8671-adee31885d00")
+	)
+	(wire
+		(pts
+			(xy 132.08 104.14) (xy 134.62 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1013,17 +993,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 96.52) (xy 195.58 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ba6aa5f-c63d-4c2d-86c3-9a6abc7e23b3")
-	)
-	(wire
-		(pts
-			(xy 195.58 120.65) (xy 195.58 129.54)
+			(xy 142.24 109.22) (xy 142.24 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1033,7 +1003,17 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 129.54) (xy 191.77 129.54)
+			(xy 142.24 97.79) (xy 142.24 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cf8f512-2a64-4bd6-9254-1024da9df016")
+	)
+	(wire
+		(pts
+			(xy 133.35 114.3) (xy 138.43 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1043,7 +1023,27 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 88.9) (xy 195.58 88.9)
+			(xy 142.24 93.98) (xy 142.24 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be989278-7fd5-418e-9914-4218f5032615")
+	)
+	(wire
+		(pts
+			(xy 138.43 87.63) (xy 138.43 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d225beab-27ad-4a68-b7a2-b530e3c61f7a")
+	)
+	(wire
+		(pts
+			(xy 134.62 87.63) (xy 142.24 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1053,7 +1053,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 115.57) (xy 162.56 115.57)
+			(xy 121.92 104.14) (xy 124.46 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1063,7 +1063,7 @@
 	)
 	(hierarchical_label "Power"
 		(shape input)
-		(at 166.37 88.9 180)
+		(at 134.62 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1074,7 +1074,7 @@
 	)
 	(hierarchical_label "Enable"
 		(shape input)
-		(at 157.48 115.57 180)
+		(at 121.92 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1085,18 +1085,18 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 200.66 92.71 0)
+		(at 147.32 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "100a8da5-962c-44a4-94ab-a15b23ce94eb")
 		(property "Reference" "J14"
-			(at 203.2 92.7099 0)
+			(at 149.86 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1107,7 +1107,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 203.2 95.2499 0)
+			(at 149.86 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1118,7 +1118,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 200.66 92.71 0)
+			(at 147.32 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1129,7 +1129,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 92.71 0)
+			(at 147.32 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1140,7 +1140,18 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 200.66 92.71 0)
+			(at 147.32 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 147.32 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1227,7 +1238,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 166.37 115.57 270)
+		(at 128.27 104.14 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1237,7 +1248,7 @@
 		(dnp no)
 		(uuid "126900db-b7ad-413f-a5c1-47a71d3b4064")
 		(property "Reference" "R19"
-			(at 164.592 117.856 90)
+			(at 126.492 106.426 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1248,7 +1259,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 164.592 115.57 90)
+			(at 126.492 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1259,7 +1270,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 166.37 113.792 90)
+			(at 128.27 102.362 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1270,7 +1281,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 115.57 0)
+			(at 128.27 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1281,7 +1292,18 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 166.37 115.57 0)
+			(at 128.27 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C17408"
+			(at 128.27 104.14 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1368,7 +1390,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SS24")
-		(at 187.96 92.71 90)
+		(at 138.43 92.71 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -1379,7 +1401,7 @@
 		(dnp no)
 		(uuid "2922ab8f-7511-4f7d-b4c9-13a090912ee9")
 		(property "Reference" "D9"
-			(at 185.42 91.1224 90)
+			(at 135.89 91.1224 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1389,8 +1411,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SS24"
-			(at 185.42 93.6624 90)
+		(property "Value" "SS54"
+			(at 135.89 93.6624 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1401,7 +1423,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 192.405 92.71 0)
+			(at 142.875 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1412,7 +1434,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/88748/ss22.pdf"
-			(at 187.96 92.71 0)
+			(at 138.43 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1423,7 +1445,18 @@
 			)
 		)
 		(property "Description" "40V 2A Schottky Diode, SMA"
-			(at 187.96 92.71 0)
+			(at 138.43 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C22452"
+			(at 138.43 92.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1511,7 +1544,7 @@
 	(symbol
 		(lib_name "GND_2")
 		(lib_id "power:GND")
-		(at 191.77 129.54 0)
+		(at 138.43 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1521,7 +1554,7 @@
 		(dnp no)
 		(uuid "50955d65-1f58-4aab-b78e-5f801dd37fc1")
 		(property "Reference" "#PWR062"
-			(at 191.77 135.89 0)
+			(at 138.43 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1532,7 +1565,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 187.96 129.54 0)
+			(at 134.62 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1543,7 +1576,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 191.77 129.54 0)
+			(at 138.43 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1554,7 +1587,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 129.54 0)
+			(at 138.43 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1565,7 +1598,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 191.77 129.54 0)
+			(at 138.43 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1648,7 +1681,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:AO3400A")
-		(at 193.04 115.57 0)
+		(at 139.7 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1659,7 +1692,7 @@
 		(fields_autoplaced yes)
 		(uuid "ee7e523f-2250-41b1-8b3c-44db0b2c253d")
 		(property "Reference" "Q1"
-			(at 199.39 114.2999 0)
+			(at 146.05 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1670,7 +1703,7 @@
 			)
 		)
 		(property "Value" "AO3400A"
-			(at 199.39 116.8399 0)
+			(at 146.05 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1681,7 +1714,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 198.12 117.475 0)
+			(at 144.78 106.045 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1694,7 +1727,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
-			(at 198.12 119.38 0)
+			(at 144.78 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1706,7 +1739,18 @@
 			)
 		)
 		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
-			(at 193.04 115.57 0)
+			(at 139.7 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C20917"
+			(at 139.7 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1796,7 +1840,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 184.15 123.19 0)
+		(at 133.35 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1806,7 +1850,7 @@
 		(dnp no)
 		(uuid "f9be807f-6c9d-46c2-a4bd-6526eae69a00")
 		(property "Reference" "R20"
-			(at 186.436 124.968 90)
+			(at 135.636 110.998 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1817,7 +1861,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 184.15 124.968 90)
+			(at 133.35 110.998 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1828,7 +1872,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 182.372 123.19 90)
+			(at 131.572 109.22 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1839,7 +1883,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 123.19 0)
+			(at 133.35 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1850,7 +1894,18 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 184.15 123.19 0)
+			(at 133.35 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C17414"
+			(at 133.35 109.22 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
