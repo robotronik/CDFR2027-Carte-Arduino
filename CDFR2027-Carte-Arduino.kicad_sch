@@ -2693,6 +2693,161 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Fuse"
 			(pin_numbers
 				(hide yes)
@@ -5821,6 +5976,10 @@
 		(uuid "02397923-675e-44be-bc00-3253a279386b")
 	)
 	(no_connect
+		(at 186.69 55.88)
+		(uuid "0aa08480-f68f-4cdf-9954-0ba2b77091c3")
+	)
+	(no_connect
 		(at 67.31 40.64)
 		(uuid "1d035ecd-6181-42f4-9861-c9c4b10c6111")
 	)
@@ -5829,16 +5988,8 @@
 		(uuid "31574a77-9aa0-40b6-ac09-7a56ef03f524")
 	)
 	(no_connect
-		(at 177.8 71.12)
-		(uuid "3c8d1028-a0cf-422e-addc-b70f408bc97c")
-	)
-	(no_connect
-		(at 177.8 73.66)
-		(uuid "41cd3e30-04e9-4d4e-8680-c6b8ca01a812")
-	)
-	(no_connect
-		(at 177.8 68.58)
-		(uuid "614df1ac-f1f9-4165-82ac-05a7ee76b820")
+		(at 186.69 53.34)
+		(uuid "707a0ac0-66e5-41f4-9c6d-df7db7fc4e45")
 	)
 	(no_connect
 		(at 69.85 101.6)
@@ -5853,12 +6004,20 @@
 		(uuid "7e28e462-b074-4102-a3dd-e1a24b699380")
 	)
 	(no_connect
+		(at 186.69 50.8)
+		(uuid "9bf50aa4-0378-47f2-b058-a9052fe6f476")
+	)
+	(no_connect
 		(at 69.85 99.06)
 		(uuid "9e1177f6-a992-4d02-ac05-909b2026f510")
 	)
 	(no_connect
 		(at 40.64 73.66)
 		(uuid "b03c2094-f788-4b99-8bbb-021375e38b5c")
+	)
+	(no_connect
+		(at 186.69 58.42)
+		(uuid "be80e49f-48b1-47fa-9ff2-ff2b24dd883a")
 	)
 	(no_connect
 		(at 40.64 88.9)
@@ -5871,10 +6030,6 @@
 	(no_connect
 		(at 40.64 96.52)
 		(uuid "dfcca665-e34a-4741-b6dc-8e323a32b3a6")
-	)
-	(no_connect
-		(at 177.8 76.2)
-		(uuid "e55425cc-d8e2-4e5f-83fc-e9554992330a")
 	)
 	(no_connect
 		(at 40.64 66.04)
@@ -7156,6 +7311,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 76.2) (xy 185.42 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c919d7e-823d-4620-b1c9-f6dbc71f42a1")
+	)
+	(wire
+		(pts
 			(xy 127 26.67) (xy 132.08 26.67)
 		)
 		(stroke
@@ -7163,6 +7328,16 @@
 			(type default)
 		)
 		(uuid "a17fda5f-47e8-4f6f-964d-1abc5d4f5d92")
+	)
+	(wire
+		(pts
+			(xy 177.8 68.58) (xy 185.42 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1e3dcfa-144f-4175-b57f-6ae096324b20")
 	)
 	(wire
 		(pts
@@ -7223,6 +7398,26 @@
 			(type default)
 		)
 		(uuid "a684b92c-bbee-4417-b15a-8137337fdff9")
+	)
+	(wire
+		(pts
+			(xy 31.75 67.31) (xy 31.75 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a69bf6e3-e4bf-44ff-b97f-c23dac2aa36f")
+	)
+	(wire
+		(pts
+			(xy 22.86 67.31) (xy 31.75 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a70c6c45-fb64-484b-a033-75428e87184f")
 	)
 	(wire
 		(pts
@@ -7656,6 +7851,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 73.66) (xy 185.42 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da2d3c15-af83-4ef8-887e-91939020ffec")
+	)
+	(wire
+		(pts
 			(xy 127 26.67) (xy 127 27.94)
 		)
 		(stroke
@@ -7723,6 +7928,16 @@
 			(type default)
 		)
 		(uuid "df326ce9-0050-4e12-b447-9149ead78921")
+	)
+	(wire
+		(pts
+			(xy 177.8 71.12) (xy 185.42 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e786d552-6ed3-498f-8025-36b7b34a5a94")
 	)
 	(wire
 		(pts
@@ -8221,16 +8436,6 @@
 		)
 		(uuid "2d873dd0-1fb8-460b-83bd-1e3efa7fd820")
 	)
-	(label "Servo5"
-		(at 186.69 55.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2ddfd8f8-b3b6-4083-851e-1a4bf3564b65")
-	)
 	(label "Sens1"
 		(at 77.47 66.04 180)
 		(effects
@@ -8280,6 +8485,16 @@
 			(justify left bottom)
 		)
 		(uuid "34c66d48-69f5-40af-acb8-400a7e1a8289")
+	)
+	(label "Servo5"
+		(at 185.42 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3791b0f3-f583-4dc3-aaa7-17643dbbf0e2")
 	)
 	(label "POWER_4"
 		(at 194.31 105.41 0)
@@ -8341,16 +8556,6 @@
 		)
 		(uuid "453fcc47-72a3-4d6b-b9ea-1c30f7fe70c7")
 	)
-	(label "Servo2"
-		(at 186.69 48.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "47e11417-81d0-4e6e-8bfe-3203bd050f30")
-	)
 	(label "Pump1"
 		(at 179.07 105.41 0)
 		(effects
@@ -8370,6 +8575,16 @@
 			(justify left bottom)
 		)
 		(uuid "4a0e1e83-c288-44e9-b99a-18bbe745b431")
+	)
+	(label "ExtPWM11"
+		(at 186.69 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4a2778ad-aebb-4114-90b2-a169b2207d1f")
 	)
 	(label "Sens3"
 		(at 77.47 71.12 180)
@@ -8411,16 +8626,6 @@
 		)
 		(uuid "4f4f8437-60b5-42e9-a31b-84532a97326c")
 	)
-	(label "Servo4"
-		(at 186.69 53.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "511cc7fe-0220-4f76-924a-ba8f1e9ae54e")
-	)
 	(label "I2C_CLK"
 		(at 78.74 88.9 180)
 		(effects
@@ -8430,6 +8635,16 @@
 			(justify right bottom)
 		)
 		(uuid "5354c755-9397-42d7-b875-958d66d3318e")
+	)
+	(label "Servo6"
+		(at 185.42 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "53d881e6-3f0b-466a-ae7e-3bbd048d10f5")
 	)
 	(label "Sens2"
 		(at 77.47 68.58 180)
@@ -8491,6 +8706,16 @@
 		)
 		(uuid "67bd2db2-a424-4f96-a3e6-d836d6ab1516")
 	)
+	(label "Servo2"
+		(at 185.42 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6858d454-488b-4aea-852e-6539581ccf9e")
+	)
 	(label "Sens4"
 		(at 101.6 73.66 180)
 		(effects
@@ -8541,6 +8766,16 @@
 		)
 		(uuid "71791513-efd2-4f49-9a72-1e8a5b6974e4")
 	)
+	(label "Servo4"
+		(at 185.42 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "731045b6-0ccb-4dc8-a163-9816cc07f05e")
+	)
 	(label "Sens5"
 		(at 101.6 76.2 180)
 		(effects
@@ -8560,16 +8795,6 @@
 			(justify right bottom)
 		)
 		(uuid "7f746738-58be-4073-bf55-966292a03e9a")
-	)
-	(label "ExtPWM10"
-		(at 189.23 63.5 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8144ef3d-7431-4818-a4e9-1aa5b2387478")
 	)
 	(label "EV7"
 		(at 179.07 135.89 0)
@@ -8621,16 +8846,6 @@
 		)
 		(uuid "8c284e0b-b7b7-4f43-802c-4549ccd7b062")
 	)
-	(label "Servo1"
-		(at 186.69 45.72 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8ca0cad7-cc46-4a0c-9489-1713c0bbef25")
-	)
 	(label "LED_B"
 		(at 186.69 43.18 180)
 		(effects
@@ -8641,15 +8856,15 @@
 		)
 		(uuid "92981a26-7a06-4f8f-8cd9-57888e0b5574")
 	)
-	(label "Servo6"
-		(at 186.69 58.42 180)
+	(label "Servo7"
+		(at 185.42 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "95975d3d-b20c-4340-8e31-fbdde66728cd")
+		(uuid "9c0a44ad-0391-4e06-9a25-3a69e8fec149")
 	)
 	(label "POWER_1"
 		(at 217.17 57.15 0)
@@ -8781,6 +8996,16 @@
 		)
 		(uuid "bd6d0cae-731d-4a36-8803-0680b820043d")
 	)
+	(label "Servo3"
+		(at 185.42 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bf8e013c-773e-4a3f-af74-dd4ebad039bf")
+	)
 	(label "LED_G"
 		(at 209.55 38.1 0)
 		(effects
@@ -8861,25 +9086,15 @@
 		)
 		(uuid "d0e9a706-a4c2-4331-ba2b-bdf5cdfeedae")
 	)
-	(label "Servo7"
-		(at 186.69 60.96 180)
+	(label "Servo1"
+		(at 185.42 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "d1dfb413-0b4d-4813-8775-055a4bcb4435")
-	)
-	(label "Servo3"
-		(at 186.69 50.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d4a8d2b0-cf4b-4992-9d22-6d7117661372")
+		(uuid "d749616a-0974-4a60-9a49-44bd7662a3c1")
 	)
 	(label "Servo7"
 		(at 219.71 76.2 180)
@@ -8931,15 +9146,15 @@
 		)
 		(uuid "f032804a-ddec-4dd3-82d1-e47fb7037691")
 	)
-	(label "ExtPWM11"
-		(at 189.23 66.04 180)
+	(label "ExtPWM10"
+		(at 186.69 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "f1eb2f3e-423b-4801-9fb0-1f5855291ba3")
+		(uuid "f0e9687c-a8cc-4c0a-b998-29fe62c3211e")
 	)
 	(label "EV6"
 		(at 179.07 133.35 0)
@@ -9277,6 +9492,163 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 151.13 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "010fcc24-f143-4ff4-8f36-b3246c8a29c2")
+		(property "Reference" "#PWR094"
+			(at 151.13 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 149.225 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8964b048-6252-4716-9bf5-254b9a2d0675")
+		)
+		(instances
+			(project "CDFR2027-Carte-Arduino"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR094")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 144.78 17.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d546bc2-bbda-4287-93b7-7966705a7e61")
+		(property "Reference" "#PWR012"
+			(at 144.78 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 144.78 12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 144.78 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d4420a0c-31f4-4471-bd75-16f46726dd8b")
+		)
+		(instances
+			(project "CDFR2027-Carte-Arduino"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 132.08 31.75 0)
 		(unit 1)
@@ -9363,6 +9735,98 @@
 			(project "CDFR2027-Carte-Arduino"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 22.86 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "104af334-2157-423e-90ce-12ed96574dea")
+		(property "Reference" "R57"
+			(at 25.146 72.898 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 22.86 72.898 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 21.082 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 22.86 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C17414"
+			(at 22.86 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d46ad4dc-8968-4e60-988f-ffbceed40348")
+		)
+		(pin "1"
+			(uuid "df26360f-e5c9-4093-bd19-c6f13a9470a8")
+		)
+		(instances
+			(project "CDFR2027-Carte-Arduino"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R57")
 					(unit 1)
 				)
 			)
@@ -10908,7 +11372,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "150"
 			(at 221.742 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10952,7 +11416,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C17408"
+		(property "JLCPCB Part #" ""
 			(at 219.71 40.64 90)
 			(hide yes)
 			(show_name no)
@@ -11831,6 +12295,163 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 22.86 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77a2a4df-2921-495f-bfcd-14519968d50f")
+		(property "Reference" "#PWR095"
+			(at 22.86 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 22.86 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 22.86 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "00d00078-6f2a-4541-87a0-b7995c9df289")
+		)
+		(instances
+			(project "CDFR2027-Carte-Arduino"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR095")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 151.13 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b91c441-937f-42b4-b81f-a650fb7406bb")
+		(property "Reference" "#PWR093"
+			(at 151.13 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 151.13 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 151.13 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dd3b739d-43dd-455c-807c-14fc2a52ef6a")
+		)
+		(instances
+			(project "CDFR2027-Carte-Arduino"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR093")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 219.71 38.1 90)
 		(unit 1)
@@ -11852,7 +12473,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "150"
 			(at 221.742 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11896,7 +12517,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C17408"
+		(property "JLCPCB Part #" ""
 			(at 219.71 38.1 90)
 			(hide yes)
 			(show_name no)
@@ -12419,6 +13040,178 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 144.78 25.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "979a40c6-7377-487a-8c6a-c8e60dc5b3d7")
+		(property "Reference" "#PWR092"
+			(at 144.78 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.875 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "35cfda42-49e3-46b1-bfc2-c1dcdf8806d3")
+		)
+		(instances
+			(project "CDFR2027-Carte-Arduino"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR092")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 144.78 21.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a6c9f14-5c3c-46ff-a78f-13bdafdc8b67")
+		(property "Reference" "C1"
+			(at 148.59 20.3199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF"
+			(at 148.59 22.8599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 145.7452 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 144.78 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C1710"
+			(at 144.78 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b5d52f18-dc62-457f-9fa7-dccb5f36ad93")
+		)
+		(pin "2"
+			(uuid "9612648a-ce19-4b68-b859-60e14e556d12")
+		)
+		(instances
+			(project "CDFR2027-Carte-Arduino"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_7")
 		(lib_id "power:GND")
 		(at 42.545 193.04 0)
@@ -12647,6 +13440,99 @@
 			(project "CDFR2027-Carte-Arduino"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 151.13 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab214c21-dd3a-4856-bbbf-5ec6b94c72e8")
+		(property "Reference" "C38"
+			(at 154.94 90.1699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF"
+			(at 154.94 92.7099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 152.0952 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 151.13 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C1710"
+			(at 151.13 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9bcd5534-a308-4762-9b04-09925da3ee2a")
+		)
+		(pin "2"
+			(uuid "ca455113-6ab3-4463-b4a1-a4b4eb222141")
+		)
+		(instances
+			(project "CDFR2027-Carte-Arduino"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -13488,7 +14374,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "150"
 			(at 221.742 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13532,7 +14418,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C17408"
+		(property "JLCPCB Part #" ""
 			(at 219.71 35.56 90)
 			(hide yes)
 			(show_name no)
