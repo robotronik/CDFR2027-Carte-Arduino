@@ -6629,7 +6629,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330uF"
+		(property "Value" "25V 330uF ±20% SMD"
 			(at 191.77 88.0109 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6673,7 +6673,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C2758467"
+		(property "JLCPCB Part #" "C127884"
 			(at 187.96 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -6742,7 +6742,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "330"
 			(at 228.6 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6786,7 +6786,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C3148159"
+		(property "JLCPCB Part #" "C17630"
 			(at 226.06 99.06 0)
 			(hide yes)
 			(show_name no)
