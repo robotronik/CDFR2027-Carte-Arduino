@@ -9494,7 +9494,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 151.13 95.25 0)
+		(at 143.51 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9504,7 +9504,7 @@
 		(dnp no)
 		(uuid "010fcc24-f143-4ff4-8f36-b3246c8a29c2")
 		(property "Reference" "#PWR094"
-			(at 151.13 101.6 0)
+			(at 143.51 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9515,7 +9515,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 149.225 99.06 0)
+			(at 141.605 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9527,7 +9527,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 95.25 0)
+			(at 143.51 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9538,7 +9538,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 95.25 0)
+			(at 143.51 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9549,7 +9549,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 151.13 95.25 0)
+			(at 143.51 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9572,7 +9572,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 144.78 17.78 0)
+		(at 143.51 21.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9583,7 +9583,7 @@
 		(fields_autoplaced yes)
 		(uuid "0d546bc2-bbda-4287-93b7-7966705a7e61")
 		(property "Reference" "#PWR012"
-			(at 144.78 21.59 0)
+			(at 143.51 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9594,7 +9594,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 144.78 12.7 0)
+			(at 143.51 16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9604,7 +9604,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 17.78 0)
+			(at 143.51 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9615,7 +9615,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 17.78 0)
+			(at 143.51 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9626,7 +9626,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 144.78 17.78 0)
+			(at 143.51 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11416,7 +11416,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C17471"
 			(at 219.71 40.64 90)
 			(hide yes)
 			(show_name no)
@@ -12375,7 +12375,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 151.13 87.63 0)
+		(at 143.51 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12386,7 +12386,7 @@
 		(fields_autoplaced yes)
 		(uuid "7b91c441-937f-42b4-b81f-a650fb7406bb")
 		(property "Reference" "#PWR093"
-			(at 151.13 91.44 0)
+			(at 143.51 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12397,7 +12397,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 151.13 82.55 0)
+			(at 143.51 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12407,7 +12407,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 87.63 0)
+			(at 143.51 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12418,7 +12418,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 87.63 0)
+			(at 143.51 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12429,7 +12429,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 151.13 87.63 0)
+			(at 143.51 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12517,7 +12517,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C17471"
 			(at 219.71 38.1 90)
 			(hide yes)
 			(show_name no)
@@ -13042,7 +13042,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 144.78 25.4 0)
+		(at 143.51 29.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13052,7 +13052,7 @@
 		(dnp no)
 		(uuid "979a40c6-7377-487a-8c6a-c8e60dc5b3d7")
 		(property "Reference" "#PWR092"
-			(at 144.78 31.75 0)
+			(at 143.51 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13063,7 +13063,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 142.875 29.21 0)
+			(at 141.605 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13075,7 +13075,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 25.4 0)
+			(at 143.51 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13086,7 +13086,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 25.4 0)
+			(at 143.51 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13097,7 +13097,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 144.78 25.4 0)
+			(at 143.51 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13120,7 +13120,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 144.78 21.59 0)
+		(at 143.51 25.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13131,7 +13131,7 @@
 		(fields_autoplaced yes)
 		(uuid "9a6c9f14-5c3c-46ff-a78f-13bdafdc8b67")
 		(property "Reference" "C1"
-			(at 148.59 20.3199 0)
+			(at 147.32 24.1299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13141,8 +13141,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF"
-			(at 148.59 22.8599 0)
+		(property "Value" "10nF 50V"
+			(at 147.32 26.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13153,7 +13153,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 145.7452 25.4 0)
+			(at 144.4752 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13164,7 +13164,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 21.59 0)
+			(at 143.51 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13175,7 +13175,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 144.78 21.59 0)
+			(at 143.51 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13186,7 +13186,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C1710"
-			(at 144.78 21.59 0)
+			(at 143.51 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13447,7 +13447,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 151.13 91.44 0)
+		(at 143.51 92.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13458,7 +13458,7 @@
 		(fields_autoplaced yes)
 		(uuid "ab214c21-dd3a-4856-bbbf-5ec6b94c72e8")
 		(property "Reference" "C38"
-			(at 154.94 90.1699 0)
+			(at 147.32 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13468,8 +13468,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF"
-			(at 154.94 92.7099 0)
+		(property "Value" "10nF 50V"
+			(at 147.32 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13480,7 +13480,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 152.0952 95.25 0)
+			(at 144.4752 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13491,7 +13491,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 91.44 0)
+			(at 143.51 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13502,7 +13502,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 151.13 91.44 0)
+			(at 143.51 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13513,7 +13513,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C1710"
-			(at 151.13 91.44 0)
+			(at 143.51 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14418,7 +14418,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C17471"
 			(at 219.71 35.56 90)
 			(hide yes)
 			(show_name no)

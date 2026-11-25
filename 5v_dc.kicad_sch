@@ -6191,7 +6191,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "4.7uF 50V"
 			(at 115.57 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6235,7 +6235,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C1779"
+		(property "JLCPCB Part #" "C437557"
 			(at 111.76 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -6304,7 +6304,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "10nF 50V"
 			(at 127 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6417,7 +6417,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "10nF 50V"
 			(at 204.47 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6673,7 +6673,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C3148159"
+		(property "JLCPCB Part #" "C2758467"
 			(at 187.96 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -7063,7 +7063,7 @@
 				)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "10nF 50V"
 			(at 168.91 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7217,7 +7217,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C397802"
+		(property "JLCPCB Part #" "C40000"
 			(at 181.61 83.82 90)
 			(hide yes)
 			(show_name no)
@@ -7731,7 +7731,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "4.7uF 50V"
 			(at 102.87 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7775,7 +7775,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C1779"
+		(property "JLCPCB Part #" "C437557"
 			(at 106.68 87.63 0)
 			(hide yes)
 			(show_name no)
