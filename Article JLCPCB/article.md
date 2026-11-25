@@ -23,6 +23,8 @@ Le résultat est une carte dense : **154 composants CMS répartis sur les deux f
 
 ![Face inférieure de la CDFR2027-Carte-Arduino](images/bottom.png)
 
+![Rendu 3D du robot principal avec la carte intégrée](images/robot-3d.png)
+
 ## La BOM automatique : gagner du temps et éviter les erreurs
 
 Première étape de toute commande : transformer la nomenclature issue de KiCad en une BOM exploitable. C'est là que l'**outil BOM automatique de JLCPCB** change la donne.
@@ -35,6 +37,10 @@ Les membres de Robotronik savent concevoir un schéma, router un PCB quatre couc
 
 Le service **PCBA Standard** de JLCPCB, avec son **assemblage double face**, répond exactement à ce besoin : l'équipe reçoit des cartes déjà assemblées, qu'il ne reste plus qu'à brancher, tester et intégrer dans le robot. Sans cette prestation, la carte n'aurait tout simplement pas pu être produite dans les délais de la saison.
 
+L'outil de placement de JLCPCB permet également de vérifier, composant par composant et face par face, la position et l'orientation de chaque référence avant de valider la commande.
+
+![Vérification du placement des composants dans l'outil JLCPCB](images/part_placement.png)
+
 Au-delà du temps gagné, cette approche apporte une réelle fiabilité : chaque exemplaire est assemblé de manière identique, ce qui facilite le diagnostic et permet de disposer de cartes de rechange prêtes à l'emploi.
 
 ## Un PCB 4 couches pensé pour la puissance et la lisibilité
@@ -42,8 +48,6 @@ Au-delà du temps gagné, cette approche apporte une réelle fiabilité : chaque
 Le routage de cette carte a été guidé par deux contraintes fortes : faire passer des courants importants vers les actionneurs et garder une électronique de commande propre.
 
 Le **PCB 4 couches** de JLCPCB permet justement de séparer plans de puissance et signaux, de réduire les boucles de courant des convertisseurs à découpage et de garder un routage lisible malgré la densité de composants. Les options de fabrication standards — masque vert, finition classique, épaisseur 1,6 mm — suffisent largement à ce type de carte, pour un coût maîtrisé.
-
-![Rendu 3D du robot principal avec la carte intégrée](images/robot-3d.png)
 
 ## Trois cartes, des délais courts
 
