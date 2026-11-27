@@ -659,7 +659,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "CDFR2027-Carte-Arduino.step",
       "svg": "",
       "vrml": ""
     },
